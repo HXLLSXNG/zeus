@@ -113,7 +113,7 @@ function sendFileToTelegram(file) {
     formData.append("chat_id", userData.telegramId);
     formData.append("document", file);
 
-    fetch(`https://api.telegram.org/bot<TOKEN>/sendDocument`, {
+    fetch(`https://api.telegram.org/bot<8177006398:AAFfzYoJzWR8IBrw81R3Fiob-gxoPST1uGg>/sendDocument`, {
         method: "POST",
         body: formData
     }).then(response => response.json())
